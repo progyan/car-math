@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Car Math</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+    <body>
+        <img src="shop.jpg" id="shop">
+        <div id="money">0<img src="borcoin.jpg" title="BorCoin"></div>
+        <div id="days">
+            <div class="bad day" id="1d"></div>
+            <div class="good day" id="2d"></div>
+            <div class="bad day" id="3d"></div>
+            <div class="bad day" id="4d"></div>
+            <div class="bad day" id="5d"></div>
+            <div class="good day" id="6d"></div>
+            <div class="good day" id="7d"></div>
+            <div id="time"></div>
+        </div>
+        <main>
+            <div class="select 1">
+                <div class="up 1" onclick="up('1')">+</div>
+                <div class="number" id="1">0</div>
+                <div class="down 1" onclick="down('1')">-</div>
+            </div>
+            <div class="select 2">
+                <div class="option 2" onclick="selectMe(this)">+</div>
+                <div class="option 2" onclick="selectMe(this)">-</div>
+                <div class="option 2" onclick="selectMe(this)">x</div>
+                <div class="option 2" onclick="selectMe(this)">:</div>
+            </div>
+            <div class="select 3">
+                <div class="up 3" onclick="up('3')">+</div>
+                <div class="number" id="3">0</div>
+                <div class="down 3" onclick="down('3')">-</div>
+            </div>
+            <div class="select 4">
+                <div class="bigoption 4" id="bo1" onclick="go('!', this)">!</div>
+                <div class="bigoption 4" id="bo2" onclick="go('?', this)">?</div>
+            </div>
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>

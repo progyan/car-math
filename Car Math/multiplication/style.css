@@ -1,0 +1,49 @@
+.mark {
+    display: inline-block;
+    font-size: calc(100em / 86);
+    margin: 6.4px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 1s;
+    transition-property: color;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-bottom: solid 10px black;
+    white-space: nowrap;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#car {
+    width: calc(100em / 70);
+    position: absolute;
+    top: 45%;
+    left: 0px;
+    transition-duration: 1s;
+    transition-property: left;
+}
+
+#message {
+    top: 30px;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+}
+
+#num {
+    bottom: 30px;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10vw;
+    color: grey;
+}

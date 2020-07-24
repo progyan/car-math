@@ -1,0 +1,142 @@
+.up, .down, .number, .option, .bigoption {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 7vw;
+}
+
+.up, .down, .option, .bigoption {
+    box-shadow: 5px 5px 20px black;
+    width: 14vw;
+    height: 16vh;
+    text-align: center;
+    margin: 14px;
+    border-radius: 7px;
+}
+
+.number, .option, .bigoption {
+    width: 14vw;
+    height: 20vh;
+    text-align: center;
+    margin: 14px;
+}
+
+#selected {
+    background-color: rgba(30, 143, 255, 0.7);
+    box-shadow: 0 0 5px black;
+}
+
+.can-sel {
+    background-color: rgba(153, 205, 50, 0.8) !important;
+    box-shadow: 5px 5px 10px black !important;
+}
+
+#shop {
+    width: 100px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+    transition-property: border-radius width;
+}
+
+#money img {
+    border-radius: 20px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+#money {
+    font-size: 52px;
+    color: rgb(255, 196, 0);
+    font-family: 'Comfortaa', sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #00000088;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#shop:hover {
+    border-radius: 30px;
+    width: 120px;
+}
+
+body {
+    background-image: url('car-panel.jpg');
+    background-size: 100%;
+    color: white;
+}
+
+#days {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+}
+
+.day {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.bad {
+    background-color: rgba(255, 166, 0, 0.5);
+}
+
+.good {
+    background-color: rgba(153, 205, 50, 0.5);
+}
+
+.oops {
+    background-color: rgba(255, 166, 0, 0.5);
+}
+
+#now {
+    border: solid 5px rgba(255, 255, 255, 0.8);
+    width: 10px;
+    height: 10px;
+}
+
+#time {
+    font-size: 2em;
+    font-family: 'Comfortaa', sans-serif;
+    margin-top: 10px;
+    position: relative;
+    left: 9%;
+}
+
+.number {
+    font-size: 10vw !important;
+}
+
+.option {
+    height: 12.4vh !important;
+    font-size: 5vw !important;
+}
+
+.select {
+    display: inline-block;
+}
+
+.bigoption {
+    height: 27.3vh !important;
+    font-size: 12.8vw !important;
+    box-shadow: 0 0 5px black;
+}
+
+.option, .can-sel, .down, .up {
+    transition-duration: 0.5s;
+    transition-property: box-shadow, background-color;
+}
+
+.option:active, .can-sel:active, .down:active, .up:active {
+    box-shadow: 0 0 5px black !important;
+}
+
+main {
+    left: 16%;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    user-select: none;
+}
