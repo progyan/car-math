@@ -11,3 +11,5 @@ Then open the `select` directory.
 Then run the `index.html` file.
 
 Done!
+
+**Note: the division is undone yet!**
